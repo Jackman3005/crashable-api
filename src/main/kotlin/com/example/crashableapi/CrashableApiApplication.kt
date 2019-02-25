@@ -46,6 +46,7 @@ class CrashController : ApplicationContextAware {
 
     @GetMapping("/crash")
     fun crash(): String {
+        println("Requested to crash the API...")
         thread {
             context.close()
         }
