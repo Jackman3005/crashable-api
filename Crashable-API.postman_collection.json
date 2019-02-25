@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "01001c94-2c04-4548-bab1-2b78ed2bd6de",
+		"name": "Crashable-API",
+		"description": "Made from start.spring.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "Hello",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/hello",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crash",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/crash",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"crash"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Long Running Process",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8080/doSomething/10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doSomething",
+								"10"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cfapps.io",
+			"item": [
+				{
+					"name": "Hello",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://crashable-api.cfapps.io/hello",
+							"protocol": "http",
+							"host": [
+								"crashable-api",
+								"cfapps",
+								"io"
+							],
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crash",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://crashable-api.cfapps.io/crash",
+							"protocol": "http",
+							"host": [
+								"crashable-api",
+								"cfapps",
+								"io"
+							],
+							"path": [
+								"crash"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Long Running Process",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://crashable-api.cfapps.io/doSomething/2",
+							"protocol": "http",
+							"host": [
+								"crashable-api",
+								"cfapps",
+								"io"
+							],
+							"path": [
+								"doSomething",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
