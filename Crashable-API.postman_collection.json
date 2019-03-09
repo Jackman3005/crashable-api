@@ -93,8 +93,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://crashable-api.cfapps.io/hello",
-							"protocol": "http",
+							"raw": "https://crashable-api.cfapps.io/hello",
+							"protocol": "https",
 							"host": [
 								"crashable-api",
 								"cfapps",
@@ -117,8 +117,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://crashable-api.cfapps.io/crash",
-							"protocol": "http",
+							"raw": "https://crashable-api.cfapps.io/crash",
+							"protocol": "https",
 							"host": [
 								"crashable-api",
 								"cfapps",
@@ -141,8 +141,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://crashable-api.cfapps.io/doSomething/2",
-							"protocol": "http",
+							"raw": "https://crashable-api.cfapps.io/doSomething/10",
+							"protocol": "https",
 							"host": [
 								"crashable-api",
 								"cfapps",
@@ -150,7 +150,7 @@
 							],
 							"path": [
 								"doSomething",
-								"2"
+								"10"
 							]
 						}
 					},
