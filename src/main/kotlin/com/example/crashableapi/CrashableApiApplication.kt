@@ -19,12 +19,12 @@ fun main(args: Array<String>) {
 
 @RestController
 class TestController {
-    @RequestMapping("/hello")
+    @GetMapping("/hello")
     fun hello(): String {
         return "Hello, the api is up and happily working!"
     }
 
-    @RequestMapping("/doSomething/{seconds}")
+    @GetMapping("/doSomething/{seconds}")
     fun hello(@PathVariable seconds : Long): String {
         val millisToWait = seconds * 1000
         val now = LocalDateTime.now()
