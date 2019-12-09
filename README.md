@@ -25,6 +25,13 @@ with requests for each endpoint locally and on the public test environment.
 Available [here](Crashable-API.postman_collection.json). See [importing postman data](https://learning.getpostman.com/docs/postman/collections/data_formats/#importing-postman-data)
 for help using this collection.
 
+## Running Locally
+
+This is a standard Spring Boot application and can be most simply run with the following command:
+```bash
+./gradlew bootRun
+```
+
 ## Notes
 
 This API is publicly hosted on the [PCF](https://pivotal.io/platform)
